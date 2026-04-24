@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="Dashboard Tickets - Sincronizado", layout="wide")
+st.set_page_config(page_title="Dashboard Tickets", layout="wide")
 
 @st.cache_data
 def cargar_datos_pro():

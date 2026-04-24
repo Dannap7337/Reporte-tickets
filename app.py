@@ -57,7 +57,7 @@ try:
         st.plotly_chart(fig2, use_container_width=True)
 
     # --- TABLA CON COLORES SINCRONIZADOS ---
-    st.markdown("### Detalle de Tickets (Colores sincronizados con gráficas)")
+    st.markdown("### Detalle de Tickets")
     
     df_filtrado['MIN'] = pd.to_numeric(df_filtrado['MIN'], errors='coerce').fillna(0)
     df_filtrado = df_filtrado.sort_values(by='MIN', ascending=False)

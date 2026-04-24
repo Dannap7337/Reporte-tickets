@@ -43,7 +43,7 @@ try:
     mapa_colores = {mes: colores_lista[i % len(colores_lista)] for i, mes in enumerate(todos_los_meses)}
     mapa_colores["No facturado"] = "#BF00FF" # Forzamos rojo para lo no facturado
 
-    st.title(f"📊 Reporte Sincronizado - {mes_sel}")
+    st.title(f"📊 Reporte - {mes_sel}")
 
     col1, col2 = st.columns(2)
     with col1:
